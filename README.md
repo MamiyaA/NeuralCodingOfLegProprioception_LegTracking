@@ -2,3 +2,10 @@
 Scripts for tracking and analyzing tibia position data presented in "Neural Coding of Leg Proprioception in Drosophila" (Mamiya, Gurung, and Tuthill (2018) Neuron: DOI:https://doi.org/10.1016/j.neuron.2018.09.009). Also scripts for synchronizing calcium imaging data with tibia tracking data and piezo movement data.
 
 ![Graphical Abstract](Mamiya_etal_Neuron.jpg)
+
+Brief descriptions of the analysis scripts.
+
+DetectCameraAndImagingFrames: Calculate the timing of the image frames for 2-photon laser scanning microscope and high-speed video camera. Read the binary file that contains time series data that describes the position of the x and y mirrors of the scanning laser microscope and the exposure signal for the camera used to track the fly tibia position. Use peak detection alogirthm to identify the end of the frame for each time of images.
+
+DetectCameraAndImagingFrames_All: Runs DetectCameraAndImagingFrames for all the appropriate files in the directory.
+
