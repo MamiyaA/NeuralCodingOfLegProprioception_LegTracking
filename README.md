@@ -9,3 +9,5 @@ DetectCameraAndImagingFrames: Calculate the timing of the image frames for 2-pho
 
 DetectCameraAndImagingFrames_All: Runs DetectCameraAndImagingFrames for all the appropriate files in the directory.
 
+DrawMaskAndBackground3_withComments: Read in a sample video file and ask the user to specify the area to use for tracking tibia angle. Also generates a background image without the tibia by combining two images with tibia at different position.
+
