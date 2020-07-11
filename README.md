@@ -17,3 +17,6 @@ TrackLegAngle4_All: Runs TrackLegAngle4 for all the apporpriate files in a direc
 
 TrackLegAngle4_All_All: Runs TrackLegAngle4_All for all the appropriate folders in a directory.
 
+TrackLegAngle4_withComments: TrackLegAngle4 script with more comments for each line.
+
+FindPiezoStartFrames: Use the binary data file that contains the Piezo command signal and the output from the DetectCameraAndImagingFrames to find the 2-photon imaging frame that corresponds to the beginning of the presentation of the Piezo vibration stimulus.
