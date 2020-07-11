@@ -12,3 +12,8 @@ DetectCameraAndImagingFrames_All: Runs DetectCameraAndImagingFrames for all the 
 DrawMaskAndBackground3_withComments: Read in a sample video file and ask the user to specify the area to use for tracking tibia angle. Also generates a background image without the tibia by combining two images with tibia at different position.
 
 TrackLegAngle4: Combine background image and image mask generated above with user specified threshold to find the pixels corresponding to the tibia. For each frame, calculate the orientation (second moment of inertia) and the centroid of the tibia pixels. 
+
+TrackLegAngle4_All: Runs TrackLegAngle4 for all the apporpriate files in a directory.
+
+TrackLegAngle4_All_All: Runs TrackLegAngle4_All for all the appropriate folders in a directory.
+
