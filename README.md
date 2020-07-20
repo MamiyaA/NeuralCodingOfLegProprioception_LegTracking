@@ -23,3 +23,4 @@ FindPiezoStartFrames: Use the binary data file that contains the Piezo command s
 
 ConvertTibiaAngle_FindMoveOnset: Calculate and convert femur-tibia angle to degrees based on the use specified femur angle and the tibia tracking data. Use tibia trackin data to find the onset of tibia movement. Plot both tibia angle and tibia angle speed for user inspection.
 
+TibiaAngleForImagingFrame: Use the timing information for imaging frame and video camera frame, and the output from the ConvertTibiaAngle_FindMoveOnset to calculate the average tibia angle for each imaging frame. Combine with DF/F information from calcium imaging analysis to show how the cell's activity changed with tibia angle.
