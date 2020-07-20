@@ -20,3 +20,6 @@ TrackLegAngle4_All_All: Runs TrackLegAngle4_All for all the appropriate folders 
 TrackLegAngle4_withComments: TrackLegAngle4 script with more comments for each line.
 
 FindPiezoStartFrames: Use the binary data file that contains the Piezo command signal and the output from the DetectCameraAndImagingFrames to find the 2-photon imaging frame that corresponds to the beginning of the presentation of the Piezo vibration stimulus.
+
+ConvertTibiaAngle_FindMoveOnset: Calculate and convert femur-tibia angle to degrees based on the use specified femur angle and the tibia tracking data. Use tibia trackin data to find the onset of tibia movement. Plot both tibia angle and tibia angle speed for user inspection.
+
